@@ -1,12 +1,19 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,56 +43,56 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 80,
                       width: 80,
-                      child: Center(
-                        child: Text(
-                          "C",
-                          style: TextStyle(
-                            fontSize: 42,
-                          ),
-                        ),
-                      ),
                       decoration: BoxDecoration(
                           color: Colors.white70,
                           borderRadius: BorderRadius.circular(50)),
+                      child: Center(
+                        child: Text(
+                          "AC",
+                          style: TextStyle(
+                            fontSize: 40,
+                          ),
+                        ),
+                      ),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white70,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "+/-",
                           style: TextStyle(fontSize: 42),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white70,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white70,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "%",
                           style: TextStyle(fontSize: 42),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white70,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.amber.shade700,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "÷",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.amber.shade700,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                   ],
                 ),
@@ -95,57 +102,62 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      height: 80,
-                      width: 80,
-                      child: Center(
-                        child: Text(
-                          "7",
-                          style: TextStyle(fontSize: 42, color: Colors.white),
+                    InkWell(
+                      onTap: () {
+                        print("moye moye...!!!");
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(50)),
+                        child: Center(
+                          child: Text(
+                            "7",
+                            style: TextStyle(fontSize: 42, color: Colors.white),
+                          ),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "8",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "9",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.amber.shade700,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "×",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.amber.shade700,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                   ],
                 ),
@@ -158,54 +170,54 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "4",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "5",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "6",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.amber.shade700,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "-",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.amber.shade700,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                   ],
                 ),
@@ -218,54 +230,54 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "1",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "2",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "3",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.amber.shade700,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "+",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.amber.shade700,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                   ],
                 ),
@@ -278,6 +290,9 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 80,
                       width: 176,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 24, top: 15),
                         child: Text(
@@ -285,35 +300,32 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.white24,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           ".",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
+                      decoration: BoxDecoration(
+                          color: Colors.amber.shade700,
+                          borderRadius: BorderRadius.circular(50)),
                       child: Center(
                         child: Text(
                           "=",
                           style: TextStyle(fontSize: 42, color: Colors.white),
                         ),
                       ),
-                      decoration: BoxDecoration(
-                          color: Colors.amber.shade700,
-                          borderRadius: BorderRadius.circular(50)),
                     ),
                   ],
                 ),
