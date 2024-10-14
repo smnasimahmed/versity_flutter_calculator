@@ -1,7 +1,7 @@
 # calculator_veristy
 
 Calculator App UI:
-A clean Calculator UI as iPhone calculator app.
+A simple and user-friendly calculator application with a sleek UI. Built to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ![image](https://github.com/user-attachments/assets/1c7a4fcd-28d5-4d97-bef5-33a596528c62) ![image](https://github.com/user-attachments/assets/678c4466-2128-4437-ac2c-e8b6dd7617a5)
 
