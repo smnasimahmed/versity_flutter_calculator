@@ -1,6 +1,9 @@
 # calculator_veristy
 
 A new Flutter project.
+![image](https://github.com/user-attachments/assets/2d2c8ad0-9d9d-4d16-b7b3-d336af400b40) ![image](https://github.com/user-attachments/assets/cdbb3298-03a6-4ecf-a0bb-e0f72b61f86c)
+
+
 
 ## Getting Started
 
