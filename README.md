@@ -4,8 +4,8 @@ Calculator App UI:
 A simple and user-friendly calculator application with a sleek UI. Built to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1c7a4fcd-28d5-4d97-bef5-33a596528c62" width="400"/>
-  <img src="https://github.com/user-attachments/assets/678c4466-2128-4437-ac2c-e8b6dd7617a5" width="400"/>
+  <img src="https://github.com/user-attachments/assets/1c7a4fcd-28d5-4d97-bef5-33a596528c62" width="200"/>
+  <img src="https://github.com/user-attachments/assets/678c4466-2128-4437-ac2c-e8b6dd7617a5" width="200"/>
 </p>
 
 ## Bugs need to be fixed
