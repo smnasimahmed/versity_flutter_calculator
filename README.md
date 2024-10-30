@@ -1,7 +1,7 @@
 # calculator_veristy
 
-Calculator App UI:
-A simple and user-friendly calculator application with a sleek UI. Built to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+## Overview
+This is a simple calculator app built using Flutter. It features basic arithmetic operations with a modern UI. The app demonstrates how to design a functional interface using Flutter widgets and layouts.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1c7a4fcd-28d5-4d97-bef5-33a596528c62" width="200"/>
