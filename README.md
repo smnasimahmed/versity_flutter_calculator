@@ -1,7 +1,7 @@
 # Flutter Calculator App
 
 ## Overview
-This is a simple calculator app built using Flutter. It features basic arithmetic operations with a modern UI. The app demonstrates how to design a functional interface using Flutter widgets and layouts.
+This is a simple **calculator app** built using **Flutter**. It features basic arithmetic operations with a modern UI. The app demonstrates how to design a functional interface using Flutter widgets and layouts.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1c7a4fcd-28d5-4d97-bef5-33a596528c62" width="200"/>
@@ -10,8 +10,8 @@ This is a simple calculator app built using Flutter. It features basic arithmeti
 
 ## Features
 * User-friendly interface with large buttons for easy input.
-* Basic arithmetic operations: Addition, Subtraction, Multiplication, Division.
-* Cross-platform support for Android and iOS.
+* Basic arithmetic operations: **Addition, Subtraction, Multiplication, Division.**
+* Cross-platform support for **Android and iOS**.
 * Minimalist design with a dark theme for comfortable usage.
 
 ## What I Used / Learned
@@ -22,16 +22,16 @@ This is a simple calculator app built using Flutter. It features basic arithmeti
 
 ## Challenges and Issues
 ### State Management Problem
-Problem: The calculator uses a StatelessWidget, which doesn’t allow dynamic updates for the display.
+Problem: The calculator uses a ```StatelessWidget```, which doesn’t allow dynamic updates for the display.
 Solution: Replace with a StatefulWidget to manage input and result updates more effectively.
 ### Display Issue
 Problem: The display shows a static "0" without updating as the user presses buttons.
-Solution: Store input and result values in a state variable and use setState() to update the display on user interaction.
+Solution: Store input and result values in a state variable and use ```setState()``` to update the display on user interaction.
 
 ## Improvements & Next Steps
-Migrate to StatefulWidget to handle state changes properly.
+Migrate to ```StatefulWidget``` to handle state changes properly.
 Consider Provider or Riverpod if the app becomes more complex.
-Use Expanded or Flexible to adapt the layout across all screen sizes.
+Use ```Expanded``` or ```Flexible``` to adapt the layout across all screen sizes.
 
 ## Future Plans
 * Advanced Operations: Add functions like square roots, power, and memory storage.
