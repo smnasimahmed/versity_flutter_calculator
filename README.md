@@ -49,10 +49,6 @@ Input Validation: Add logic to handle division by zero and other invalid operati
 ```
 https://github.com/smnasimahmed/versity_flutter_calculator.git
 ```
-#### Navigate into the project directory:
-```
-cd calculator-app
-```
 
 #### Install dependencies:
 ```
