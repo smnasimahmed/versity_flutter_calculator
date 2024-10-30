@@ -29,10 +29,9 @@ Problem: The display shows a static "0" without updating as the user presses but
 Solution: Store input and result values in a state variable and use setState() to update the display on user interaction.
 
 ## Improvements & Next Steps
-Stateful Widgets: Migrate to StatefulWidget to handle state changes properly.
-State Management: Consider Provider or Riverpod if the app becomes more complex.
-UI Optimization: Use Expanded or Flexible to adapt the layout across all screen sizes.
-Input Validation: Add logic to handle division by zero and other invalid operations.
+Migrate to StatefulWidget to handle state changes properly.
+Consider Provider or Riverpod if the app becomes more complex.
+Use Expanded or Flexible to adapt the layout across all screen sizes.
 
 ## Future Plans
 * Advanced Operations: Add functions like square roots, power, and memory storage.
