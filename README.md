@@ -1,4 +1,4 @@
-# calculator_veristy
+# Flutter Calculator App
 
 ## Overview
 This is a simple calculator app built using Flutter. It features basic arithmetic operations with a modern UI. The app demonstrates how to design a functional interface using Flutter widgets and layouts.
